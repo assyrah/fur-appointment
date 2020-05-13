@@ -1,0 +1,24 @@
+.button {
+    display: inline-block;
+    padding: $btn-padding;
+    vertical-align: middle;
+    font-weight: $font-weight-bold;
+    border: $border-default;
+    border-bottom: 2px solid $color-primary-dark;
+    box-shadow: none;
+    line-height: 1;
+    background-color: $color-primary;
+    cursor: pointer;
+    color: $color-font-inverted;
+
+    &:hover {
+        background-color: $color-primary-dark;
+        color: $color-font-inverted;
+        text-decoration: none;
+    }
+
+    &:focus {
+        outline: 0;
+    }
+
+}
